@@ -22,7 +22,7 @@
    "-Xms1g" "-Xmx1g"] ; Testing https require more memory
 
   ;; Oldest version JVM to support:
-  :javac-options ["--release" "7" "-g"]
+  :javac-options ["--release" "8" "-g"]
   :java-source-paths ["src/java"]
   :test-paths ["test"]
   :jar-exclusions [#"^java.*"] ; exclude the java directory in source path
